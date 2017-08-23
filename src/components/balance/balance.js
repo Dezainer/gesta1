@@ -32,7 +32,7 @@ export default class Balance extends React.Component {
 			total: {
 				accumulated: '-',
 				incomming: '-',
-				chared: '-',
+				charged: '-',
 				month: '-',
 				total: '-'
 			}

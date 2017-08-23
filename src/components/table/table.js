@@ -38,12 +38,10 @@ export default class Table extends React.Component {
 							this.props.data.map((item, i) => (
 								<TableItem key={ i }
 									id={ i }
-									date={ item.date }
+									{ ...item }
 									type={ this.props.type }
-									desc={ item.desc }
-									estimated={ item.estimated }
-									realized={ item.realized }
 									delete={ this.props.deleteRecord }
+									submit={ this.props.recordNew }
 								/>
 							))
 						}

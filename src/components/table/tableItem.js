@@ -1,6 +1,16 @@
 import React from 'react';
+import NewItem from './newItem';
 
 export default class TableItem extends React.Component {
+
+	constructor() {
+		super();
+
+		this.state = {
+			editing: false
+		}
+	}
+
 	render() {
 		return (
 			<tr className={ this.props.type }>
