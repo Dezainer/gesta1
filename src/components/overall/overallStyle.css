@@ -1,0 +1,23 @@
+.overall {
+	margin-top: 5vh;
+	padding: 40px;
+}
+
+.overall th, .overall td {
+	width: 20%;
+	text-align: center;
+}
+
+.overall td {
+	color: rgba(0,0,0,0.5)
+}
+
+.overall td:nth-child(2) {
+	color: #43A047;
+	background: rgba(225,245,254, 1);
+}
+
+.overall td:nth-child(3) {
+	color: #EF5350;
+	background: rgba(255,235,238, 1);
+}
